@@ -1,0 +1,36 @@
+{
+    "name": "votong/websocketasync",
+    "description": "Laravel Websocket based on Ratchet, support pub/sub feature.",
+    "authors": [
+        {
+            "name": "Vo Tong",
+            "email": "votong175@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-zmq": "*",
+        "cboden/Ratchet": "0.3.*",
+        "votong/websocket": "dev-master",
+        "predis/predis": "~1.0",
+        "predis/predis-async": "dev-master",
+        "react/zmq": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:votong/laravel-websocket.git"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/VoTong/WebSocketAsync/helper",
+            "src/VoTong/WebSocketAsync/model",
+            "src/VoTong/WebSocketAsync/command"
+        ],
+        "psr-0": {
+            "VoTong\\WebSocketAsync\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
