@@ -1,5 +1,5 @@
 {
-    "name": "votong/websocketasync",
+    "name": "votong/websocket-async",
     "description": "Laravel Websocket based on Ratchet, support pub/sub feature.",
     "authors": [
         {
