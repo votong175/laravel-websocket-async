@@ -11,7 +11,7 @@
         "php": ">=5.4.0",
         "ext-zmq": "*",
         "cboden/Ratchet": "0.3.*",
-        "votong/websocket": "dev-master",
+        "votong/websocket": "0.0.*",
         "predis/predis": "~1.0",
         "predis/predis-async": "dev-master",
         "react/zmq": "dev-master"
