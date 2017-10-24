@@ -31,6 +31,5 @@
         "psr-0": {
             "VoTong\\WebSocketAsync\\": "src/"
         }
-    },
-    "minimum-stability": "stable"
+    }
 }
